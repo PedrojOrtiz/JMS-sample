@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JMS-sample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JMS-sample</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JMS-sample-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JMS-sample:war exploded" />
+    </root>
+  </artifact>
+</component>
